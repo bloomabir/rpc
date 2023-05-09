@@ -1,3 +1,3 @@
 # rpc
 
-## pfc repo holds the code for the game Rock Paper Scissors
+## `pfc` folder contains the code for the game Rock Paper Scissors
