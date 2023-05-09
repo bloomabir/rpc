@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PFC</title>
+    <link href="/public/style/style.css" rel="stylesheet">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/public/scripts/main.js"></script>
+
+</head>
+
+<body>
+    <h1>Pierre Feuille Ciseaux</h1>
+
+    <div id="buttons">
+        <button onclick="clickBtn(this, 'rock')" disabled><img src="../public/img/rock.png" alt="rock" title="Rock"></button>
+        <button onclick="clickBtn(this, 'cissors')" disabled><img src="../public/img/scissors.png" alt="cissors" title="Cissors"></button>
+        <button onclick="clickBtn(this, 'paper')" disabled><img src="../public/img/paper.png" alt="paper" title="Paper"></button>
+    </div>
+
+    <p id="messageZone">Welcome to the game waiting for second player to join</p>
+
+
+</body>
+<footer><a href="/">Return</a></footer>
+
+</html>
